@@ -1,0 +1,42 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+input{
+  padding: 5px;
+}
+
+button {
+  padding: 5px;
+  margin-left: 5px;
+  border: 1px solid rgb(121, 121, 121);
+  border-radius: 3px;
+}
+
+button.add{
+  background-color: rgba(95, 240, 95, 0.77);
+}
+
+button.add:hover{
+  background-color: rgba(26, 233, 26, 0.877);
+}
+
+.task{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  background-color: rgb(223, 221, 221);
+  border-radius: 5px;
+}
+span{
+  padding: 5px 10px;
+}
+
+button.remove{
+  background-color: rgb(228, 109, 109);
+}
+
+button.remove:hover{
+  background-color: rgb(235, 24, 24);
+}
